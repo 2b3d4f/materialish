@@ -53,8 +53,30 @@ h6 {
 }
 
 section#typography {
+    display: flex block;
+    flex-direction: column;
+    gap: 16px;
+
+    > section {
+        background-color: var(--md-sys-color-surface);
+        border-radius: var(--md-sys-shape-corner-medium);
+        border: var(--md-sys-color-outline-variant) 1px solid;
+    }
+    h3 {
+        background-color: var(--md-sys-color-primary-container);
+        padding: var(--md-sys-shape-corner-medium);
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+        border-bottom: inherit;
+    }
     p {
         margin: 0;
-        padding: 0;
+        padding-inline: var(--md-sys-shape-corner-medium);
+        &:first-of-type {
+            padding-block-start: var(--md-sys-shape-corner-medium);
+        }
+        &:last-of-type {
+            padding-block-end: var(--md-sys-shape-corner-medium);
+        }
     }
 }
