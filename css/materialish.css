@@ -4,3 +4,8 @@
 @import url(./colors/light-hc.css) (prefers-color-scheme: light) and (prefers-contrast: more);
 
 @import url(./materialish.typography.css);
+
+body {
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+}
