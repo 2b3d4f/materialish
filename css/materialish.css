@@ -1,16 +1,16 @@
-@layer reset, colors, colors-hc, utilities, components, custom;
+@layer reset;
 @import 'https://unpkg.com/@acab/reset.css' layer(reset);
 
-@import url(./colors/dark.css) layer(colors) (prefers-color-scheme: dark), not (prefers-contrast: more);
-@import url(./colors/light.css) layer(colors) (prefers-color-scheme: light), not (prefers-contrast: more);
-@import url(./colors/dark-hc.css) layer(colors-hc) (prefers-color-scheme: dark) and (prefers-contrast: more);
-@import url(./colors/light-hc.css) layer(colors-hc) (prefers-color-scheme: light) and (prefers-contrast: more);
+@import url(./colors/dark.css) (prefers-color-scheme: dark), not (prefers-contrast: more);
+@import url(./colors/light.css) (prefers-color-scheme: light), not (prefers-contrast: more);
+@import url(./colors/dark-hc.css) (prefers-color-scheme: dark) and (prefers-contrast: more);
+@import url(./colors/light-hc.css) (prefers-color-scheme: light) and (prefers-contrast: more);
 
-@import url(./materialish.typography.css) layer(utilities);
-@import url(./materialish.shape.css) layer(utilities);
-@import url(./materialish.state.css) layer(utilities);
-@import url(./materialish.elevation.css) layer(utilities);
+@import url(./materialish.typography.css);
+@import url(./materialish.shape.css);
+@import url(./materialish.state.css);
+@import url(./materialish.elevation.css);
 
-@import url(./materialish.components.css) layer(components);
+@import url(./materialish.components.css);
 
-@import url(./materialish.custom.css) layer(custom);
+@import url(./materialish.custom.css);
