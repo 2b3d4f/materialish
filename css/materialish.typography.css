@@ -109,7 +109,7 @@
     --md-sys-typescale-title-small-letter-spacing: 0.00625rem;
 }
 
-.u-display-large {
+:where(.u-display-large) {
     font-family: var(--md-sys-typescale-display-large-font-family-name);
     font-style: var(--md-sys-typescale-display-large-font-family-style);
     font-weight: var(--md-sys-typescale-display-large-font-weight);
@@ -120,7 +120,7 @@
     text-decoration: var(--md-sys-typescale-display-large-text-decoration);
 }
 
-.u-display-medium {
+:where(.u-display-medium) {
     font-family: var(--md-sys-typescale-display-medium-font-family-name);
     font-style: var(--md-sys-typescale-display-medium-font-family-style);
     font-weight: var(--md-sys-typescale-display-medium-font-weight);
@@ -131,7 +131,7 @@
     text-decoration: var(--md-sys-typescale-display-medium-text-decoration);
 }
 
-.u-display-small {
+:where(.u-display-small) {
     font-family: var(--md-sys-typescale-display-small-font-family-name);
     font-style: var(--md-sys-typescale-display-small-font-family-style);
     font-weight: var(--md-sys-typescale-display-small-font-weight);
@@ -142,7 +142,7 @@
     text-decoration: var(--md-sys-typescale-display-small-text-decoration);
 }
 
-.u-headline-large {
+:where(.u-headline-large) {
     font-family: var(--md-sys-typescale-headline-large-font-family-name);
     font-style: var(--md-sys-typescale-headline-large-font-family-style);
     font-weight: var(--md-sys-typescale-headline-large-font-weight);
@@ -153,7 +153,7 @@
     text-decoration: var(--md-sys-typescale-headline-large-text-decoration);
 }
 
-.u-headline-medium {
+:where(.u-headline-medium) {
     font-family: var(--md-sys-typescale-headline-medium-font-family-name);
     font-style: var(--md-sys-typescale-headline-medium-font-family-style);
     font-weight: var(--md-sys-typescale-headline-medium-font-weight);
@@ -164,7 +164,7 @@
     text-decoration: var(--md-sys-typescale-headline-medium-text-decoration);
 }
 
-.u-headline-small {
+:where(.u-headline-small) {
     font-family: var(--md-sys-typescale-headline-small-font-family-name);
     font-style: var(--md-sys-typescale-headline-small-font-family-style);
     font-weight: var(--md-sys-typescale-headline-small-font-weight);
@@ -175,7 +175,7 @@
     text-decoration: var(--md-sys-typescale-headline-small-text-decoration);
 }
 
-.u-body-large {
+:where(.u-body-large) {
     font-family: var(--md-sys-typescale-body-large-font-family-name);
     font-style: var(--md-sys-typescale-body-large-font-family-style);
     font-weight: var(--md-sys-typescale-body-large-font-weight);
@@ -186,7 +186,7 @@
     text-decoration: var(--md-sys-typescale-body-large-text-decoration);
 }
 
-.u-body-medium {
+:where(.u-body-medium) {
     font-family: var(--md-sys-typescale-body-medium-font-family-name);
     font-style: var(--md-sys-typescale-body-medium-font-family-style);
     font-weight: var(--md-sys-typescale-body-medium-font-weight);
@@ -197,7 +197,7 @@
     text-decoration: var(--md-sys-typescale-body-medium-text-decoration);
 }
 
-.u-body-small {
+:where(.u-body-small) {
     font-family: var(--md-sys-typescale-body-small-font-family-name);
     font-style: var(--md-sys-typescale-body-small-font-family-style);
     font-weight: var(--md-sys-typescale-body-small-font-weight);
@@ -208,7 +208,7 @@
     text-decoration: var(--md-sys-typescale-body-small-text-decoration);
 }
 
-.u-label-large {
+:where(.u-label-large) {
     font-family: var(--md-sys-typescale-label-large-font-family-name);
     font-style: var(--md-sys-typescale-label-large-font-family-style);
     font-weight: var(--md-sys-typescale-label-large-font-weight);
@@ -219,7 +219,7 @@
     text-decoration: var(--md-sys-typescale-label-large-text-decoration);
 }
 
-.u-label-medium {
+:where(.u-label-medium) {
     font-family: var(--md-sys-typescale-label-medium-font-family-name);
     font-style: var(--md-sys-typescale-label-medium-font-family-style);
     font-weight: var(--md-sys-typescale-label-medium-font-weight);
@@ -230,7 +230,7 @@
     text-decoration: var(--md-sys-typescale-label-medium-text-decoration);
 }
 
-.u-label-small {
+:where(.u-label-small) {
     font-family: var(--md-sys-typescale-label-small-font-family-name);
     font-style: var(--md-sys-typescale-label-small-font-family-style);
     font-weight: var(--md-sys-typescale-label-small-font-weight);
@@ -241,7 +241,7 @@
     text-decoration: var(--md-sys-typescale-label-small-text-decoration);
 }
 
-.u-title-large {
+:where(.u-title-large) {
     font-family: var(--md-sys-typescale-title-large-font-family-name);
     font-style: var(--md-sys-typescale-title-large-font-family-style);
     font-weight: var(--md-sys-typescale-title-large-font-weight);
@@ -252,7 +252,7 @@
     text-decoration: var(--md-sys-typescale-title-large-text-decoration);
 }
 
-.u-title-medium {
+:where(.u-title-medium) {
     font-family: var(--md-sys-typescale-title-medium-font-family-name);
     font-style: var(--md-sys-typescale-title-medium-font-family-style);
     font-weight: var(--md-sys-typescale-title-medium-font-weight);
@@ -263,7 +263,7 @@
     text-decoration: var(--md-sys-typescale-title-medium-text-decoration);
 }
 
-.u-title-small {
+:where(.u-title-small) {
     font-family: var(--md-sys-typescale-title-small-font-family-name);
     font-style: var(--md-sys-typescale-title-small-font-family-style);
     font-weight: var(--md-sys-typescale-title-small-font-weight);

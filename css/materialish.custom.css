@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto Flex", Roboto;
+    font-family: Ariel, "Roboto Flex", Roboto;
     background-color: var(--md-sys-color-surface);
     color: var(--md-sys-color-on-surface);
 }
