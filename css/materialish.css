@@ -1,3 +1,6 @@
+@layer reset, page, override;
+@import 'https://unpkg.com/@acab/reset.css' layer(reset);
+
 @import url(./colors/dark.css) (prefers-color-scheme: dark);
 @import url(./colors/light.css) (prefers-color-scheme: light);
 @import url(./colors/dark-hc.css) (prefers-color-scheme: dark) and (prefers-contrast: more);
