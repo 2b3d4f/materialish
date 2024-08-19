@@ -7,8 +7,8 @@
 @import url(./colors/light-hc.css) layer(color-overrides) (prefers-color-scheme: light) and (prefers-contrast: more); */
 
 @import url(./materialish.typography.css);
-@import url(./materialish.shape.css);
 @import url(./materialish.state.css);
+@import url(./materialish.shape.css);
 @import url(./materialish.elevation.css);
 
 @import url(./materialish.components.css);
