@@ -6,3 +6,27 @@
     --md-sys-shape-corner-small: 8px;
     --md-sys-shape-corner-none: 0;
 }
+
+.u-shape-full {
+    border-radius: var(--md-sys-shape-corner-full);
+}
+
+.u-shape-extra-large {
+    border-radius: var(--md-sys-shape-corner-extra-large);
+}
+
+.u-shape-large {
+    border-radius: var(--md-sys-shape-corner-large);
+}
+
+.u-shape-medium {
+    border-radius: var(--md-sys-shape-corner-medium);
+}
+
+.u-shape-small {
+    border-radius: var(--md-sys-shape-corner-small);
+}
+
+.u-shape-none {
+    border-radius: var(--md-sys-shape-corner-none);
+}
