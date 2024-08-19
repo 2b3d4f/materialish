@@ -6,3 +6,33 @@
     --md-sys-elevation-level1: 1px;
     --md-sys-elevation-level0: 0px;
 }
+
+:root {
+    --ml-sys-color-shadow-opacity: rgba(0, 0, 0, .2);
+    /* X, Y, Blur, Spread, Opacity */
+    --ml-sys-elevation-level1: 0px calc(var(--md-sys-elevation-level1) * 1) calc(var(--md-sys-elevation-level1) * 2) calc(var(--md-sys-elevation-level1) * 0.1) var(--ml-sys-color-shadow-opacity);
+    --ml-sys-elevation-level2: var(--ml-sys-elevation-level1), 0px calc(var(--md-sys-elevation-level2) * 1) calc(var(--md-sys-elevation-level2) * 2) calc(var(--md-sys-elevation-level2) * 0.2) var(--ml-sys-color-shadow-opacity);
+    --ml-sys-elevation-level3: var(--ml-sys-elevation-level2), 0px calc(var(--md-sys-elevation-level3) * 1) calc(var(--md-sys-elevation-level3) * 2) calc(var(--md-sys-elevation-level3) * 0.3) var(--ml-sys-color-shadow-opacity);
+    --ml-sys-elevation-level4: var(--ml-sys-elevation-level3), 0px calc(var(--md-sys-elevation-level4) * 1) calc(var(--md-sys-elevation-level4) * 2) calc(var(--md-sys-elevation-level4) * 0.4) var(--ml-sys-color-shadow-opacity);
+    --ml-sys-elevation-level5: var(--ml-sys-elevation-level4), 0px calc(var(--md-sys-elevation-level5) * 1) calc(var(--md-sys-elevation-level5) * 2) calc(var(--md-sys-elevation-level4) * 0.5) var(--ml-sys-color-shadow-opacity);
+}
+
+.u-elevation-level1 {
+    box-shadow: var(--ml-sys-elevation-level1);
+}
+
+.u-elevation-level2 {
+    box-shadow: var(--ml-sys-elevation-level2);
+}
+
+.u-elevation-level3 {
+    box-shadow: var(--ml-sys-elevation-level3);
+}
+
+.u-elevation-level4 {
+    box-shadow: var(--ml-sys-elevation-level4);
+}
+
+.u-elevation-level5 {
+    box-shadow: var(--ml-sys-elevation-level5);
+}
