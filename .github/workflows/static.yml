@@ -4,8 +4,10 @@ name: Deploy static content to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
-    tags: ["docs"]
+    branches:
+      - "main"
+    tags:
+      - "docs"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,19 +34,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-      - name: Check tagged branch
-        run: |
-          BRANCHS=$(git branch --contains ${{ github.ref_name }})
-          set -- $BRANCHS
-          for BRANCH in $BRANCHS ; do
-            if [[ "$BRANCH" == "main" ]]; then
-              exit 0
-            fi
-          done
-          exit 1
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
